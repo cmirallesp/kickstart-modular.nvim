@@ -26,3 +26,4 @@ vim.keymap.set('n', '<leader>e', vim.diagnostic.open_float, { desc = 'Open float
 vim.keymap.set('n', '<leader>q', vim.diagnostic.setloclist, { desc = 'Open diagnostics list' })
 
 -- vim: ts=2 sts=2 sw=2 et
+vim.keymap.set('t', '<ESC>', '<C-\\><C-n>')
