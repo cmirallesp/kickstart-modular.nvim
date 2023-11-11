@@ -30,3 +30,10 @@ vim.keymap.set('n', '<leader>q', vim.diagnostic.setloclist, { desc = 'Open diagn
 vim.keymap.set('t', '<ESC>', '<C-\\><C-n>')
 -- autoclose eparent
 vim.keymap.set('i', '(', '()<left>')
+-- Telescope 
+vim.keymap.set('n', 'ff', '<cmd>Telescope find_files<cr>', { desc = 'Find files' })
+vim.keymap.set('n', 'gb', '<cmd>Telescope buffers<cr>', { desc = 'Find Files' })
+vim.keymap.set('n', 'fg', '<cmd>Telescope live_grep<cr>', { desc = 'Live Grep' })
+vim.keymap.set('n', 'gg', '<cmd>Telescope git_files<cr>', { desc = 'Find Git files' })
+vim.keymap.set('n', 'fh', '<cmd>Telescope help_tags<cr>', { desc = 'Help tags' })
+vim.keymap.set('n', 'fs', '<cmd>Telescope grep_string<cr>', { desc = 'Grep string under cursor' })
